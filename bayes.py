@@ -35,7 +35,7 @@ def pico(a, b):
 
 
 
-def plot(betas, names, linf=0, lsup=0.006):
+# def plot(betas, names, linf=0, lsup=0.006):
     x=np.linspace(linf, lsup, 100)
     for f, n in zip(betas, names):
         y=f.pdf(x)
